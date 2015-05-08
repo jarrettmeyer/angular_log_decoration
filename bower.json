@@ -1,0 +1,8 @@
+{
+  "name": "angular_log_decoration",
+  "version": "0.0.0",
+  "dependencies": {
+    "angularjs": "~1.4.0-rc.1",
+    "jquery": "~2.1.4"
+  }
+}
