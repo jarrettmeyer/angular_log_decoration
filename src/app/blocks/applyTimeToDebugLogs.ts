@@ -18,11 +18,11 @@
 
         // Rewrite the debug function, prepending the current time to
         // the function.
-        $delegate.debug = function () {
+        $delegate.debug = function (): any {
             var args: any[] = Array.prototype.slice.call(arguments);
             var now: string = new Date().toLocaleTimeString() + ' -';
             args = [].concat(now).concat(args);
-            debugFn.apply(null, args);
+            return debugFn.apply(null, args);
         };
 
         // Return the log service.
