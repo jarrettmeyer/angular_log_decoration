@@ -4,6 +4,8 @@ This micro-app demonstrates how to hook into Angular's `$provide` service to dec
 the `$log.debug` function. The function decoration is located in the file 
 `src/app/blocks/applyTimeToDebugLogs.ts`.
 
+You can see the running demo [on rawgit](https://rawgit.com/jarrettmeyer/angular_log_decoration/master/src/index.html).
+
 ## Example
 
 Default implementation:
